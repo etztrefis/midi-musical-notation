@@ -1,0 +1,49 @@
+DS_Store
+
+## ============================================================================
+## project secrets
+
+
+
+## ============================================================================
+## gitignore for JAVA
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+## ============================================================================
+## gitignore for MAVEN
+
+target/
+.classpath
+.project
+.settings
+dependency-reduced-pom.xml
+release.properties
+*.releaseBackup
+
+## ============================================================================
+## gitignore for JetBrains: IntelliJ, Android Studio, ...
+
+.idea_modules/
+.idea/
+*.iml
+*.iws
+atlassian-ide-plugin.xml
+out/
+
+## ============================================================================
+## gitignore for generated files
+
+test_output/
+plugins/
